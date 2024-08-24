@@ -55,7 +55,7 @@ function Riddle({ question, correctAnswer, audioSrc }) {
                         type="text"
                         value={userAnswer}
                         onChange={handleInputChange}
-                        placeholder="Do you know the answer?"
+                        placeholder="Please work?"
                         style={isValid ? defaultStyle : invalidStyle}
                         className={shake ? 'shake' : ''}
                     />
